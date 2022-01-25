@@ -1,0 +1,318 @@
+
+body{
+    background-color: 1c1c1c;
+
+}
+nav {
+    position: sticky;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: 2b2b2b;
+    box-shadow: black 0px 0px 500px;
+}
+
+nav ul {
+    display: block;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 30px;
+    
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* padding:15px 25px */
+
+}
+
+nav ul li a:hover {
+    animation: mymove 1s;
+    color: #ffffff;
+    background-color: #2b2b2b;
+    border-bottom: solid 5px #3499eb;
+    
+}
+@keyframes mymove {
+    from {
+        border-bottom: solid 5px #2b2b2b;
+        
+    }
+    to {
+        
+        border-bottom: solid 5px #3499eb;
+    }
+  }
+.inicio{
+    background-image: url("/Bueno_Duarte.png");
+    
+}
+#titulovanilla{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 63px;
+    text-align: center;
+    margin-top: 120px;
+    color:#3499eb;
+    text-shadow: black 0px 0px 20px;
+    text-rendering: auto;
+    animation: titulo-anim 1s;
+
+}
+#titulovanilla2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 33px;
+    text-align: center;
+
+    color:#3499eb;
+    text-shadow: black 0px 0px 20px;
+    text-rendering: auto;
+    animation: titulo-anim 1.5s;
+
+}
+#titulosobre1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 43px;
+    text-align: center;
+
+    color:#3499eb;
+    text-shadow: black 0px 0px 20px;
+    text-rendering: auto;
+    animation: titulo-anim 1.5s;
+}
+#titulosobre2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 33px;
+    text-align: center;
+    margin-top: 120px;
+    color:#006eff;
+    text-rendering: auto;
+    animation: titulo-anim 1.5s;
+    z-index: 1;
+}
+.logo{
+
+    background-image: url("https://cdn.discordapp.com/attachments/924418193894825997/935248183494332476/IMG_20220124_160130.png");
+    width: 100px;
+    height: 100px;
+}
+#titulosobre3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 34px;
+    text-align: center;
+    color:#3499eb;
+    
+    text-rendering: auto;
+    animation: titulo-anim 1.5s;
+    z-index: 2;
+    margin-top: -287px;
+}
+#comp-button{
+    background-color: #2f9bf3;
+    box-shadow: #3499eb 0px 0px 30px;
+    border-style: solid;
+    border-color:#3499eb;
+    border-radius: 7px;
+    
+    margin: auto;
+    margin-top: 320px;
+    border-bottom-color: #2887d4;
+    border-bottom-width: 5px;
+}
+#div-text{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+
+}
+#saiba-button{
+    background-color: #2f9bf3;
+    box-shadow: #3499eb 0px 0px 30px;
+    border-style: solid;
+    border-color:#3499eb;
+    border-radius: 7px;
+    
+    margin:auto;
+    margin-top: 320px;
+    border-bottom-color: #2887d4;
+    border-bottom-width: 5px;
+
+    
+}
+#saiba-button:hover{
+    background-color: #2c8cdb;
+    border-color: #2c8cdb;
+    box-shadow: #2c8cdb 0px 0px 45px;
+
+
+    
+}
+.divisoes{
+    background-color: 1c1c1c;
+    border-top-color: #3499eb;
+    border-bottom-color: #3499eb;
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;
+    height: 700px;
+    margin-top: 400px;
+}
+
+#section{
+
+}
+.propaganda{
+    width: 250px;
+    height: 500px;
+    margin-top: 150px;
+    background-color: #272727;
+    border-radius: 10px;
+    border-color: #3499eb;
+    border-width: 1px;
+    border-style: solid;
+    margin: auto;
+    animation: cartao-anm1 1s;
+
+}
+.cartao-decor{
+    background: rgb(122,52,235);
+    background: linear-gradient(121deg, rgb(52, 101, 235) 26%, rgb(52, 153, 235) 74%);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+.texto-vms{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.texto-vms-info{
+    color: #2887d4;
+    font-size: 15px;
+    text-align: center;
+    
+    
+}
+.Barra-div{
+    height: 1px;
+    background: linear-gradient(121deg, rgb(52, 101, 235) 26%, rgb(52, 153, 235) 74%);
+
+}
+#Compra-button1{
+    background-color: #2c8cdb;
+    box-shadow: #3499eb 0px 0px 30px;
+    border-style: solid;
+    border-color: #3499eb;
+    border-radius: 7px;
+    border-bottom-color: #3499eb;
+    border-bottom-width: 5px;
+
+    
+}
+#Compra-button1:hover{
+    background-color: #2c8cdb;
+    border-color: #2c8cdb;
+    box-shadow: #2c8cdb 0px 0px 45px;
+
+
+    
+}
+.divisoes2{
+    background-color: 1c1c1c;
+    border-top-color: #3499eb;
+    border-bottom-color: #3499eb;
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;
+    height: 400px;
+    margin-top: 0px;
+}
+.txt-info{
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 60px;
+    margin-top: -80px;
+}
+.txt-info2{
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 60px;
+    margin-top: -65px;
+
+}
+.txt-info3{
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 60px;
+    margin-top: -35px;
+
+}
+#resc{
+    width: 300px;
+    height: 169px;
+}
+
+#card-info{
+    background-color: tomato;
+    width: auto;
+    height: 100px;
+}
+.titulo-info{
+    font-size: 25px;
+    color: #3499eb;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+@keyframes titulo-anim {
+    from {
+        
+        opacity: 0;
+        
+    }
+    to {
+
+        opacity: 10;
+        
+    }
+  }
+  @keyframes subtitulo-anim {
+    from {
+        
+        opacity: 0;
+        
+    }
+    to {
+
+        opacity: 10;
+        
+    }
+  }
+@keyframes cartao-anm1 {
+    from {
+        
+        margin-top: 270px;
+        
+    }
+    to {
+
+        margin-top: 175px;
+        
+    }
+  }

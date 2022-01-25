@@ -1,0 +1,40 @@
+
+body{
+    background-color: 1c1c1c;
+
+}
+#disclogin{
+    width: 350px;
+    height: 400px;
+    background-color: #111111;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 12.5%;
+    border-color: #3499eb;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: black 0px 0px 60px;
+}
+#login{
+    width: 120px;
+    height: 40px;
+    background-color: #111111;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #3499eb;
+    color: #3499eb;
+    margin-top:325px;
+    margin-left:120px;
+    animation: mymove 2s infinite;
+}
+@keyframes mymove {
+    from {
+        border-color: #3499eb;
+        
+    }
+    to {
+        
+        border-color: #111111;
+    }
+  }
