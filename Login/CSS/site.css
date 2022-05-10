@@ -3,9 +3,17 @@ body{
     background-color: 1c1c1c;
 
 }
+#loginerror{
+    width: 90%;
+    height: 28px;
+    margin:auto;
+    background-color: #3499eb;
+    border-radius: 15px;
+    
+}
 #disclogin{
     width: 350px;
-    height: 400px;
+    height: 450px;
     background-color: #111111;
     border-radius: 20px;
     margin: auto;
@@ -15,6 +23,24 @@ body{
     border-width: 1px;
     box-shadow: black 0px 0px 60px;
 }
+.lembreme{
+    margin-left: 50px;
+}
+.login{
+    margin-top: 40px;
+}
+#formgostoso{
+    margin-top: 40px;
+
+}
+.loginwidth{
+    width: 270px;
+    margin: auto;
+}
+.space{
+    margin-top: 10px;
+}
+
 #login{
     width: 120px;
     height: 40px;
@@ -24,8 +50,8 @@ body{
     border-width: 1px;
     border-color: #3499eb;
     color: #3499eb;
-    margin-top:325px;
-    margin-left:120px;
+    margin-top:15px;
+    margin-left:115px;
     animation: mymove 2s infinite;
 }
 @keyframes mymove {
