@@ -1,3 +1,18 @@
-.roxo{
-
+.azul{
+    color:#3499eb;
+}
+.preto{
+    background-color: 1c1c1c;
+}
+.preto:hover{
+    background-color: 1c1c1c;
+}
+.preto:focus{
+    background-color: 1c1c1c;
+}
+.borda-preta{
+    border-color: 4c4c4c;
+}
+.branco{
+    color: white;
 }
